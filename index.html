@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0742b86abc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <embed src="" loop="true" autostart="true" width="2" height="0">
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill-sec">Skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="lni lni-close" onclick="closemenu()"></i>
+            </ul>
+            <i class="lni lni-menu" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Portfolio</p>
+            <h1>Hi, Myself <span>Hari Haran</span></h1>
+
+        </div>
+    </div>
+    </div>
+    <!-- ----------------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/portfolio1.jpg">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1> 
+                   <p>Hello, my name is <span>Hari Haran</span>, and I have 2 years of experience as a quality analyst. I value honesty, attention to detail and quality. I am always excited to learn new stuffs here and then. I had some hands-on experience in computer hardware and networking, web development, android application development, testing and etc. Also a part time youtuber who play pc games with friends and stream on youtube. </p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                   </div>
+                  
+                   <!-------------- Experience ---------------->
+                   <div class="tab-contents active-tab" id="Experience">
+                    <ul>
+                        <li><span>2021 - 2022</span><br>Quality Analyst at GE Healthcare</li>
+                        <li><span>2019</span><br>Intern at infotech</li>
+                    </ul>
+                   </div>
+                   <!----------------Education----------------->
+                   <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2017 - 2020</span><br>Bachelor of Computer Science</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------skills------------------------->    
+<div id="skill-sec">
+<div class="skills-section">
+    <div class="skills-header">
+     <h1>Skills</h1>   
+     </div>
+     <div class="skills-container">
+       
+      <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <i class="lni lni-html5"></i>
+        </div>
+         <h3>HTML 5</h3>
+        </div>
+       </div>
+       
+       
+        <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <i class="lni lni-css3"></i>
+        </div>
+        <h3>CSS3</h3>
+        </div> 
+       </div>
+       
+       
+        <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <i class="lni lni-javascript"></i>
+        </div>
+        <h3>JAVASCRIPT</h3>
+        </div>
+       </div>
+       
+          <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <i class="lni lni-nodejs"></i>
+        </div>
+        <h3>NODE.JS</h3>
+        </div>
+       </div>
+       
+          <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <i class="lni lni-java"></i>
+        </div>
+        <h3>JAVA</h3>
+        </div>
+       </div>
+       
+          <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <i class="lni lni-bootstrap"></i>
+        </div>
+        <h3>BOOTSTRAP</h3>
+        </div>
+       </div>
+
+       <div class="skills-box">
+        <div class="skills-title">
+        <div class="skills-img">
+        <i class="lni lni-network"></i>
+         </div>
+          <h3>NETWORK</h3>
+         </div>
+        </div>
+       
+       
+       </div>
+    
+     </div>
+     </div>
+<!---------------------Projects----------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="lni lni-android-original"></i>
+                    <h2>android app</h2>
+                    <p>Android application for manage the orphanages. Donations adoptions event notifications and etc.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="lni lni-laptop-phone"></i>
+                    <h2>PC BUILD</h2>
+                    <p>Built high end gaming pc for clients.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="lni lni-discord"></i>
+                    <h2>DISCORD</h2>
+                    <p>Built highly efficient and managable discord servers for cgaming community.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------- contact --------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="lni lni-telegram-original"></i>  sivahssb425@gmail.com</p>
+                <p><i class="lni lni-phone"></i>  +91-9677438663</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/h_a_r_i__425/"><i class="lni lni-instagram-original"></i></a>
+                    <a href="https://www.linkedin.com/in/hari-haran-04a437191/"><i class="lni lni-linkedin-original"></i></a>
+                    <a href="https://github.com/harimac425"><i class="lni lni-github-original"></i></a>
+                    <a href="https://www.youtube.com/c/M%C3%A0%C3%A7YTTamilGaming"><i class="lni lni-youtube"></i></a>
+                    <a href="https://discord.com/users/694253758674370702"><i class="lni lni-discord"></i></a>
+                </div>
+                <a href="images/HariHaran DT.docx" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message here"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Hari Haran.<i class="lni lni-heart-filled"></i></p>
+    </div>
+</div>
+
+
+
+
+
+<!---------------------------javaScrpit-------------------------------------------->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <!---------------------js for contact form------------------------->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkKxwBKsyA9hMK3GMV6HcHC4IyJLJDD34OOGGHbGWak59KdpLJ88s-Hc7J8asfzv_Sug/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
